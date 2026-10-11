@@ -1,0 +1,20 @@
+a:active {
+color: rgb(19, 196, 69);
+}
+
+input:focus {
+border: 2px solid rgb(8, 9, 8);
+background-color: rgb(232, 194, 194);
+}
+
+a:visited {
+color: rgb(124, 75, 14);
+}
+
+a:hover {
+color: rgb(17, 9, 186);
+}
+
+a:link {
+color: rgb(189, 244, 23);
+}

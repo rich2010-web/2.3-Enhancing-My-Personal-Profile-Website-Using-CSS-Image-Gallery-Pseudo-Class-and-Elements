@@ -1,0 +1,28 @@
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    max-width: 900px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    align-items: left;
+}
+
+.gallery-item {
+    padding: 15px;
+    text-align: center;
+    border: 3px solid #684f9a;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 200px;
+    padding: 17px;
+    margin: 8px;
+    object-fit: cover;
+    max-width: 100%;
+}
+.gallery-item img:hover {
+opacity: 0.9;
+}

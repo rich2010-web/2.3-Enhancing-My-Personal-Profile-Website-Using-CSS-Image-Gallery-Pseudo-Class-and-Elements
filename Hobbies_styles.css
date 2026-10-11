@@ -1,0 +1,7 @@
+h2::before {
+content: "★ ";
+}
+
+h2::after {
+content: " ✓";
+}
